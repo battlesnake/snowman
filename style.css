@@ -1,0 +1,49 @@
+@@keyframes bounce {
+	0% {
+		transform: scaleY(1) translateY(0);
+		animation-timing-function: ease-out;
+	}
+
+	10% {
+		transform: scaleY(0.7) translateY(0);
+		animation-timing-function: ease-in;
+	}
+
+	15% {
+		transform: scaleY(1) translateY(0);
+		animation-timing-function: ease-out;
+	}
+
+	40% {
+		transform: scaleY(1) translateY(-50%);
+		animation-timing-function: ease-in;
+	}
+
+	65% {
+		transform: scaleY(1) translateY(0);
+		animation-timing-function: ease-out;
+	}
+
+	67.5% {
+		transform: scaleY(0.95) translateY(0);
+		animation-timing-function: ease-in;
+	}
+
+	70% {
+		transform: scaleY(1) translateY(0);
+	}
+}
+
+.snowman {
+	transform-origin: center bottom;
+	animation: bounce;
+	animation-iteration-count: infinite;
+	animation-duration: 2.5s;
+	animation-timing-function: linear;
+	float: right;
+}
+
+.snowman:before {
+	content: "\2603";
+	font-size: 500px;
+}
