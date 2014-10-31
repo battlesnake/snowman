@@ -15,7 +15,7 @@
 	}
 
 	40% {
-		transform: scaleY(1) translateY(-50%);
+		transform: scaleY(1) translateY(350px);
 		animation-timing-function: ease-in;
 	}
 
@@ -41,6 +41,7 @@
 	animation-duration: 2.5s;
 	animation-timing-function: linear;
 	float: right;
+	z-index: 999999;
 }
 
 .snowman:before {
