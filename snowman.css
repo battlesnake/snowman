@@ -15,7 +15,7 @@
 	}
 
 	40% {
-		transform: scaleY(1) translateY(350px);
+		transform: scaleY(1) translateY(-350px);
 		animation-timing-function: ease-in;
 	}
 
