@@ -42,9 +42,14 @@
 	animation-timing-function: linear;
 	float: right;
 	z-index: 999999;
+	position: fixed;
+	bottom: 0;
+	margin-bottom: -50px;
+	overflow: visible;
 }
 
 .snowman:before {
 	content: "\2603";
-	font-size: 500px;
+	font-size: 450px;
+	font-family: 'Arial Unicode MS', 'Apple Symbols', 'Kozuka Gothic Pro';
 }
