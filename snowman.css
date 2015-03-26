@@ -45,7 +45,7 @@
 	position: fixed;
 	bottom: 0;
 	margin-bottom: -50px;
-	overflow: hidden;
+	overflow: visible;
 }
 
 .snowman:before {
