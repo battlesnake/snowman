@@ -1,0 +1,19 @@
+.snowman {
+	transform-origin: center bottom;
+	animation: bounce;
+	animation-iteration-count: infinite;
+	animation-duration: 8s;
+	animation-timing-function: linear;
+	z-index: 999999;
+	position: fixed;
+	left: 0;
+	bottom: 0;
+	margin-bottom: -50px;
+	overflow: visible;
+}
+
+.snowman:before {
+	content: "\2603";
+	font-size: 350px;
+	font-family: 'Arial Unicode MS', 'Apple Symbols', 'Kozuka Gothic Pro';
+}
